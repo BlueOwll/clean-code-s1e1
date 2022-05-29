@@ -151,7 +151,7 @@ li {
 }
 
 /* Completed */
-#completed-tasks .task-item__name-label {
+.completed-tasks .task-item__name-label {
   text-decoration: line-through;
   color: #888;
 }
