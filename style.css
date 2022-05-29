@@ -114,7 +114,8 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li>input[type="checkbox"],
+.task-item__checkbox {
   margin: 0 10px;
 }
 li > label {
