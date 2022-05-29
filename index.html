@@ -5,44 +5,45 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" >
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
+
+<body class="body">
   <div class="header">
-    <img class = "header__image" src="./eisenhower-matrix.jpg">
+    <img class="header__image" src="./eisenhower-matrix.jpg">
     <a class="header__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
   <div class="main">
     <p id="add-task">
-      <label for="new-task">Add Item</label>
+      <label class="section-heading add-task__label" for="new-task">Add Item</label>
       <div class="add-task__wrapper">
         <input id="new-task" class="add-task__input" type="text">
         <button id="button-add" class="button">Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
+    <h3 class="section-heading">Todo</h3>
     <ul id="incomplete-tasks">
       <li class = "task-item">
         <input class="task-item__checkbox" type="checkbox">
         <label class="task-item__name-label">Pay Bills</label>
         <input class="task-item__name-input" type="text">
         <button class="button button_edit">Edit</button>
-        <button class="button button_delete"><img src="./remove.svg"></button>
+        <button class="button button_delete"><img class="button__img" src="./remove.svg"></button>
       </li>
       <li class="task-item task-item_edit">
         <input class="task-item__checkbox" type="checkbox">
         <label class="task-item__name-label">Go Shopping</label>
         <input class="task-item__name-input" type="text" value="Go Shopping">
         <button class="button button_edit">Save</button>
-        <button class="button button_delete"><img src="./remove.svg"></button>
+        <button class="button button_delete"><img class="button__img" src="./remove.svg"></button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="section-heading">Completed</h3>
     <ul id="completed-tasks">
       <li class = "task-item">
         <input class="task-item__checkbox" type="checkbox" checked>
         <label class="task-item__name-label">See the Doctor</label>
         <input class="task-item__name-input" type="text">
         <button class="button button_edit">Edit</button>
-        <button class="button button_delete"><img src="./remove.svg"></button>
+        <button class="button button_delete"><img class="button__img" src="./remove.svg"></button>
       </li>
     </ul>
   </div>
