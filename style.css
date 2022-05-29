@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header img {
+.header__image {
   width: 100%;
 }
 
-.header .header__more-info {
+.header__more-info {
   font-family: fantasy, cursive;
 }
 
@@ -45,14 +45,12 @@
 .add-task__wrapper {
   display: flex;
 }
-ul {
+
+.tasks {
   margin: 0;
   padding: 0px;
 }
 
-li {
-  list-style: none;
-}
 
 .button {
   background: none;
@@ -105,12 +103,13 @@ li {
   margin: 0 0 20px;
 }
 
-#new-task {
+.add-task__input {
   width: 318px;
 }
 
 /* Task list */
 .task-item {
+  list-style: none;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
