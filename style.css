@@ -32,7 +32,8 @@ body {
   margin: 0 auto 0;
 }
 
-.task,
+.task-item__name-label,
+.task-item__name-input,
 .add-task__input {
   width: 56%;
   display: inline-block;
